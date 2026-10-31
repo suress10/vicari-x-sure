@@ -1,0 +1,17 @@
+{
+  "_instrucciones": [
+    "1. Entra a https://discord.com/developers/applications y crea una aplicacion llamada exactamente 'Vicari X Sure'.",
+    "2. En General Information, sube resources\\discord-logo.png como App Icon (512x512 o mas).",
+    "3. Copia el Application ID (Client ID) y pegalo abajo, entre las comillas de clientId.",
+    "4. En Rich Presence > Art Assets, sube el mismo resources\\discord-logo.png con el nombre de asset 'logo'.",
+    "5. Guarda este archivo. La app lo relee sola cada 5 segundos; si quieres, reinicia Vicari X Sure.",
+    "Si clientId queda vacio, la app funciona normal y simplemente no publica presencia en Discord."
+  ],
+  "enabled": true,
+  "clientId": "1565931448337170573",
+  "largeImageKey": "logo",
+  "largeImageText": "Vicari X Sure",
+  "stateInRoom": "Jugando en HaxBall",
+  "stateIdle": "En el menu principal",
+  "minUpdateMs": 4000
+}
